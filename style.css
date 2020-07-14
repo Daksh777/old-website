@@ -1379,12 +1379,6 @@ hr:before {
   visibility: visible;
   opacity: 1 !important;
   bottom: -30px !important;
-  -webkit-transform: scale(1);
-  -ms-transform: scale(1);
-  background-image: url("https://cdn.glitch.com/1e904efd-604a-466d-b9ce-5264a16d97ef%2Fbg.jpg?v=1592238163843");
-  background-position: center center;
-  background-repeat: repeat;
-  background-size: cover;
 }
 html {
   font-size: 18pt;

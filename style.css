@@ -2096,6 +2096,10 @@ p .li {
   display: inline-block;
   margin: 0.5rem;
 }
+#gallery01.gallery {
+  padding: 1.5rem 0;
+  background-color: rgba(255, 255, 255, 0.15);
+}
 hr {
   width: 100%;
   position: relative;

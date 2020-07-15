@@ -841,7 +841,7 @@ p .li {
   background-position: center;
   background-repeat: no-repeat;
   background-size: 3rem;
-  opacity: 0.25;
+  opacity: 0.60;
   -moz-transition: opacity 0.25s ease;
   -webkit-transition: opacity 0.25s ease;
   -ms-transition: opacity 0.25s ease;
@@ -852,9 +852,11 @@ p .li {
 }
 .gallery-modal .nav.next {
   right: 0;
+  opacity: 0.6;
 }
 .gallery-modal .nav.previous {
   left: 0;
+  opacity: 0.6;
   transform: scaleX(-1);
 }
 .gallery-modal .close {
@@ -869,7 +871,7 @@ p .li {
   background-position: top 1rem right 1rem;
   background-repeat: no-repeat;
   background-size: 3rem;
-  opacity: 0.25;
+  opacity: 1;
   transition: opacity 0.25s ease;
 }
 .gallery-modal .close:hover {
@@ -1080,7 +1082,7 @@ hr:before {
     opacity: 1;
   }
   .gallery-modal .close {
-    opacity: 1;
+    opacity: 0.6;
   }
 }
 @media (max-width: 980px) {
@@ -2035,7 +2037,7 @@ p .li {
   background-position: top 1rem right 1rem;
   background-repeat: no-repeat;
   background-size: 3rem;
-  opacity: 0.25;
+  opacity: 0.60;
   transition: opacity 0.25s ease;
 }
 .gallery-modal .close:hover {
@@ -2246,7 +2248,7 @@ hr:before {
     opacity: 1;
   }
   .gallery-modal .close {
-    opacity: 1;
+    opacity: 0.6;
   }
 }
 @media (max-width: 980px) {

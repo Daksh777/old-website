@@ -209,7 +209,7 @@ body:before {
   -moz-transform: scale(1);
   -webkit-transform: scale(1);
   -ms-transform: scale(1);
-  background-image: url("assets/bg.jpg");
+  background-image: url("assets/bg.webp");
   background-position: center center;
   background-repeat: repeat;
   background-size: cover;

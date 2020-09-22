@@ -1,460 +1,345 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>Daksh P. Jain</title>
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width,initial-scale=1,user-scalable=no"
-    />
-    <meta name="title" content="Daksh P. Jain" />
-    <meta
-      name="description"
-      content="Daksh P. Jain - A Programmer & Photographer"
-    />
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://daksh.eu.org/" />
-    <meta property="og:title" content="Daksh P. Jain" />
-    <meta
-      property="og:description"
-      content="Daksh P. Jain - A Programmer & Photographer"
-    />
-    <meta property="og:image" content="https://daksh.eu.org/assets/banner.png" />
-    <meta property="twitter:card" content="summary_large_image" />
-    <meta property="twitter:url" content="https://daksh.eu.org/" />
-    <meta property="twitter:title" content="Daksh P. Jain" />
-    <meta
-      property="twitter:description"
-      content="Daksh P. Jain - A Programmer & Photographer"
-    />
-    <meta property="twitter:image" content="https://daksh.eu.org/assets/banner.png" />
-    <style>
-      @font-face {
-        font-family: "Product Sans";
-        font-style: italic;
-        font-weight: 400;
-        font-display: swap;
-        src: local("Product Sans Italic"), local("ProductSans-Italic"),
-          url(
-              https://fonts.gstatic.com/s/productsans/v12/pxidypQkot1TnFhsFMOfGShVEueIaEx8qw.woff2
-            )format("woff2");
-        unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
-      }
-      @font-face {
-        font-family: "Product Sans";
-        font-style: italic;
-        font-weight: 400;
-        font-display: swap;
-        src: local("Product Sans Italic"), local("ProductSans-Italic"),
-          url(
-              https://fonts.gstatic.com/s/productsans/v12/pxidypQkot1TnFhsFMOfGShVEuePaEx8qw.woff2
-            )format("woff2");
-        unicode-range: U+0370-03FF;
-      }
-      @font-face {
-        font-family: "Product Sans";
-        font-style: italic;
-        font-weight: 400;
-        font-display: swap;
-        src: local("Product Sans Italic"), local("ProductSans-Italic"),
-          url(
-              https://fonts.gstatic.com/s/productsans/v12/pxidypQkot1TnFhsFMOfGShVEueCaEx8qw.woff2
-            )format("woff2");
-        unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB,
-          U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
-      }
-      @font-face {
-        font-family: "Product Sans";
-        font-style: italic;
-        font-weight: 400;
-        font-display: swap;
-        src: local("Product Sans Italic"), local("ProductSans-Italic"),
-          url(
-              https://fonts.gstatic.com/s/productsans/v12/pxidypQkot1TnFhsFMOfGShVEueMaEw.woff2
-            )format("woff2");
-        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
-          U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193,
-          U+2212, U+2215, U+FEFF, U+FFFD;
-      }
-      @font-face {
-        font-family: "Product Sans";
-        font-style: normal;
-        font-weight: 400;
-        font-display: swap;
-        src: local("Product Sans"), local("ProductSans-Regular"),
-          url(
-              https://fonts.gstatic.com/s/productsans/v12/pxiDypQkot1TnFhsFMOfGShVE9eOcEg.woff2
-            )format("woff2");
-        unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
-      }
-      @font-face {
-        font-family: "Product Sans";
-        font-style: normal;
-        font-weight: 400;
-        font-display: swap;
-        src: local("Product Sans"), local("ProductSans-Regular"),
-          url(
-              https://fonts.gstatic.com/s/productsans/v12/pxiDypQkot1TnFhsFMOfGShVFNeOcEg.woff2
-            )format("woff2");
-        unicode-range: U+0370-03FF;
-      }
-      @font-face {
-        font-family: "Product Sans";
-        font-style: normal;
-        font-weight: 400;
-        font-display: swap;
-        src: local("Product Sans"), local("ProductSans-Regular"),
-          url(
-              https://fonts.gstatic.com/s/productsans/v12/pxiDypQkot1TnFhsFMOfGShVGdeOcEg.woff2
-            )format("woff2");
-        unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB,
-          U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
-      }
-      @font-face {
-        font-family: "Product Sans";
-        font-style: normal;
-        font-weight: 400;
-        font-display: swap;
-        src: local("Product Sans"), local("ProductSans-Regular"),
-          url(
-              https://fonts.gstatic.com/s/productsans/v12/pxiDypQkot1TnFhsFMOfGShVF9eO.woff2
-            )format("woff2");
-        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
-          U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193,
-          U+2212, U+2215, U+FEFF, U+FFFD;
-      }
-    </style>
-    <link
-      rel="apple-touch-icon"
-      sizes="180x180"
-      href="assets/apple-touch-icon.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="assets/favicon-32x32.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="16x16"
-      href="assets/favicon-16x16.png"
-    />
-    <link rel="manifest" href="assets/site.webmanifest" />
-    <link rel="mask-icon" href="assets/safari-pinned-tab.svg" color="#5bbad5" />
-    <link rel="shortcut icon" href="assets/favicon.ico" />
-    <meta name="msapplication-TileColor" content="#da532c" />
-    <meta name="msapplication-config" content="assets/browserconfig.xml" />
-    <meta name="theme-color" content="#ffffff" />
 
-    <link href="style.css" rel="stylesheet" type="text/css" />
-  </head>
-  <body class="is-loading">
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
-      version="1.1"
-      xmlns:xlink="http://www.w3.org/1999/xlink"
-      viewbox="0 0 40 40"
-      display="none"
-      width="0"
-      height="0"
-    >
-      <symbol id="icon-90a" viewbox="0 0 40 40">
-        <path
-          d="M37.3,15.3v15.3c0,0.8-0.3,1.6-0.9,2.2c-0.6,0.6-1.4,0.9-2.2,0.9H5.8c-0.8,0-1.6-0.3-2.2-0.9s-0.9-1.4-0.9-2.2V15.3 c0.5,0.6,1.2,1.1,2,1.7c4.7,3.1,7.9,5.4,9.6,6.7c0.7,0.5,1.4,0.9,1.8,1.2c0.4,0.3,1,0.6,1.9,0.9c0.7,0.3,1.5,0.5,2.1,0.5l0,0 c0.6,0,1.4-0.2,2.1-0.5c0.7-0.3,1.4-0.6,1.9-0.9c0.4-0.3,1-0.7,1.8-1.2c2.2-1.6,5.4-3.8,9.6-6.7C36.1,16.5,36.7,15.9,37.3,15.3 L37.3,15.3z M37.3,9.6c0,1-0.3,2-0.9,2.9c-0.6,0.9-1.5,1.8-2.4,2.4c-4.9,3.3-7.9,5.4-9,6.2c-0.1,0.1-0.4,0.3-0.8,0.6 c-0.4,0.3-0.7,0.5-1,0.7c-0.3,0.2-0.6,0.4-1,0.6c-0.4,0.2-0.7,0.4-1.1,0.5c-0.4,0.1-0.6,0.2-0.9,0.2l0,0c-0.3,0-0.6-0.1-0.9-0.2 c-0.3-0.1-0.7-0.3-1.1-0.5c-0.4-0.2-0.7-0.4-1-0.6c-0.3-0.2-0.6-0.4-1-0.7c-0.4-0.3-0.7-0.5-0.8-0.6c-1.1-0.8-2.8-2-5.1-3.5 c-2.3-1.6-3.3-2.4-3.7-2.7c-0.8-0.5-1.6-1.2-2.3-2.2s-1-1.9-1-2.6c0-1,0.3-1.9,0.8-2.5c0.5-0.6,1.2-1,2.3-1h28.4 c0.8,0,1.6,0.3,2.2,0.9C37.1,8.1,37.3,8.8,37.3,9.6L37.3,9.6z"
-        ></path>
-      </symbol>
-      <symbol id="icon-93f" viewbox="0 0 40 40">
-        <path
-          d="M28.8,33.3c0,0-1.1-1.4-2.1-2.6c4.1-1.2,5.7-3.8,5.7-3.8c-1.3,0.9-2.5,1.5-3.6,1.9c-1.6,0.7-3.1,1.1-4.6,1.4 c-3,0.6-5.8,0.4-8.2,0c-1.8-0.3-3.3-0.9-4.6-1.4c-0.7-0.3-1.5-0.6-2.3-1.1c-0.1-0.1-0.2-0.1-0.3-0.2c-0.1,0-0.1-0.1-0.1-0.1 c-0.6-0.3-0.9-0.5-0.9-0.5s1.5,2.5,5.5,3.7c-0.9,1.2-2.1,2.6-2.1,2.6c-7-0.2-9.6-4.8-9.6-4.8c0-10.1,4.5-18.4,4.5-18.4 c4.5-3.4,8.9-3.3,8.9-3.3l0.3,0.4c-5.7,1.6-8.3,4.1-8.3,4.1s0.7-0.4,1.9-0.9c3.4-1.5,6.1-1.9,7.2-2c0.2,0,0.3-0.1,0.5-0.1 C18.6,8.1,20.7,8,23,8.3c3,0.3,6.2,1.2,9.5,3c0,0-2.5-2.4-7.9-4l0.4-0.5c0,0,4.3-0.1,8.9,3.3c0,0,4.5,8.2,4.5,18.4 C38.5,28.5,35.8,33.1,28.8,33.3z M14.2,18.6c-1.8,0-3.2,1.6-3.2,3.5s1.5,3.5,3.2,3.5c1.8,0,3.2-1.6,3.2-3.5 C17.4,20.1,16,18.6,14.2,18.6z M25.7,18.6c-1.8,0-3.2,1.6-3.2,3.5s1.5,3.5,3.2,3.5c1.8,0,3.2-1.6,3.2-3.5S27.5,18.6,25.7,18.6z"
-        ></path>
-      </symbol>
-      <symbol id="icon-907" viewbox="0 0 40 40">
-        <path
-          d="M36,20.3c0,3.5-1,6.6-3.1,9.4c-2,2.8-4.7,4.7-7.9,5.8c-0.4,0.1-0.6,0-0.8-0.1c-0.2-0.2-0.3-0.4-0.3-0.6v-4.4 c0-1.3-0.4-2.3-1.1-3c0.8-0.1,1.5-0.2,2.1-0.4c0.6-0.2,1.3-0.4,2-0.8c0.7-0.4,1.2-0.8,1.7-1.4c0.5-0.5,0.8-1.3,1.1-2.2 s0.4-2,0.4-3.1c0-1.7-0.5-3.1-1.6-4.3c0.5-1.3,0.5-2.7-0.2-4.2c-0.4-0.1-1,0-1.7,0.2c-0.7,0.3-1.4,0.6-1.9,0.9L24,12.5 c-1.3-0.4-2.6-0.5-4-0.5s-2.7,0.2-4,0.5c-0.2-0.2-0.5-0.3-0.9-0.6c-0.4-0.2-0.9-0.5-1.7-0.8c-0.8-0.3-1.4-0.4-1.8-0.3 c-0.6,1.6-0.7,3-0.1,4.2c-1.1,1.2-1.6,2.6-1.6,4.3c0,1.2,0.1,2.2,0.4,3.1s0.6,1.6,1.1,2.2s1,1,1.7,1.4c0.7,0.4,1.3,0.6,2,0.8 c0.6,0.2,1.3,0.3,2.1,0.4c-0.6,0.5-0.9,1.2-1,2.1c-0.3,0.1-0.6,0.2-0.9,0.3c-0.3,0.1-0.7,0.1-1.2,0.1c-0.5,0-0.9-0.1-1.4-0.4 c-0.5-0.3-0.8-0.7-1.2-1.3c-0.3-0.4-0.6-0.8-1-1.1c-0.4-0.3-0.8-0.4-1-0.5L9,26.5c-0.3,0-0.5,0-0.6,0.1c-0.1,0.1-0.1,0.1-0.1,0.2 c0,0.1,0.1,0.2,0.2,0.3c0.1,0.1,0.2,0.2,0.3,0.2l0.1,0.1c0.3,0.1,0.6,0.4,0.9,0.8s0.5,0.7,0.7,1.1l0.2,0.5c0.2,0.5,0.5,1,0.9,1.3 c0.4,0.3,0.9,0.5,1.4,0.6c0.5,0.1,1,0.1,1.4,0.1c0.5,0,0.9,0,1.2-0.1l0.5-0.1c0,0.5,0,1.1,0,1.9c0,0.7,0,1.1,0,1.1 c0,0.2-0.1,0.5-0.3,0.6c-0.2,0.2-0.5,0.2-0.8,0.1c-3.2-1.1-5.8-3-7.9-5.8S4,23.8,4,20.3c0-2.9,0.7-5.6,2.1-8S9.5,7.8,12,6.4 s5.1-2.1,8-2.1s5.6,0.7,8,2.1s4.4,3.4,5.8,5.8S36,17.4,36,20.3L36,20.3z"
-        ></path>
-      </symbol>
-      <symbol id="icon-923" viewbox="0 0 40 40">
-        <path
-          d="M32.3,14.4c0,1.2-0.4,2.2-1.3,3.1s-1.9,1.3-3.1,1.3s-2.2-0.4-3.1-1.3c-0.9-0.9-1.3-1.9-1.3-3.1s0.4-2.2,1.3-3.1 c0.9-0.9,1.9-1.3,3.1-1.3s2.2,0.4,3.1,1.3S32.3,13.2,32.3,14.4z M18.5,27.6c0-1.2-0.4-2.3-1.3-3.2c-0.9-0.9-1.9-1.3-3.2-1.3 c-0.3,0-0.6,0-1,0.1l1.9,0.8c0.9,0.4,1.6,1,2,1.9c0.4,0.9,0.4,1.8,0,2.7c-0.4,0.9-1,1.6-1.9,1.9c-0.9,0.4-1.8,0.4-2.7,0 c-0.3-0.1-0.6-0.2-1.1-0.4c-0.5-0.2-0.9-0.3-1.1-0.4c0.4,0.7,0.9,1.3,1.6,1.7c0.7,0.4,1.5,0.7,2.3,0.7c1.2,0,2.3-0.4,3.2-1.3 C18.1,29.9,18.5,28.9,18.5,27.6L18.5,27.6z M33.3,14.4c0-1.5-0.5-2.8-1.6-3.8C30.7,9.5,29.4,9,27.9,9c-1.5,0-2.8,0.5-3.9,1.6 c-1.1,1.1-1.6,2.3-1.6,3.8c0,1.5,0.5,2.8,1.6,3.9c1.1,1.1,2.4,1.6,3.9,1.6c1.5,0,2.8-0.5,3.8-1.6C32.8,17.2,33.3,15.9,33.3,14.4z M36,14.4c0,2.2-0.8,4.2-2.4,5.7c-1.6,1.6-3.5,2.4-5.7,2.4l-7.8,5.7c-0.1,1.5-0.8,2.8-1.9,3.9s-2.5,1.6-4.1,1.6 c-1.4,0-2.7-0.5-3.8-1.4s-1.8-2-2.1-3.4L4,27.3v-7.7l6.9,2.8c0.9-0.6,2-0.9,3.1-0.9c0.2,0,0.4,0,0.6,0l5.1-7.3 c0-2.2,0.8-4.1,2.4-5.7s3.5-2.4,5.7-2.4c2.2,0,4.2,0.8,5.7,2.4C35.2,10.3,36,12.2,36,14.4z"
-        ></path>
-      </symbol>
-      <symbol id="icon-944" viewbox="0 0 40 40">
-        <path
-          d="M34,9.6l-4.9,22.9c-0.3,1.6-1.3,2-2.7,1.2L19,28.3l-3.6,3.5c-0.3,0.4-0.7,0.8-1.5,0.8l0.4-7.6l0,0l-0.1,0 l13.9-12.4c0.7-0.6-0.1-0.8-0.9-0.3L10.2,22.9l-7.4-2.3c-1.7-0.4-1.7-1.6,0.3-2.3l28.8-11C33.2,6.7,34.5,7.6,34,9.6z"
-        ></path>
-      </symbol>
-    </svg>
-    <div id="wrapper">
-      <div id="main">
-        <div class="inner">
-          <header id="header">
-            <ul id="buttons01" class="buttons">
-              <li><a href="#home" class="button n01">Home</a></li>
-              <li><a href="#gallery" class="button n02">Gallery</a></li>
-              <li><a href="#about" class="button n03">About</a></li>
-              <li><a href="#contact" class="button n04">Contact</a></li>
-            </ul>
-          </header>
-          <section id="home-section">
-            <div id="image01" class="image">
-              <img src="assets/main logo.jpg" alt="My logo image." />
+<head>
+  <title>Daksh P. Jain</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no" />
+  <meta name="title" content="Daksh P. Jain" />
+  <meta name="description" content="Daksh P. Jain - A Programmer & Photographer" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://daksh.eu.org/" />
+  <meta property="og:title" content="Daksh P. Jain" />
+  <meta property="og:description" content="Daksh P. Jain - A Programmer & Photographer" />
+  <meta property="og:image" content="https://daksh.eu.org/assets/banner.png" />
+  <meta property="twitter:card" content="summary_large_image" />
+  <meta property="twitter:url" content="https://daksh.eu.org/" />
+  <meta property="twitter:title" content="Daksh P. Jain" />
+  <meta property="twitter:description" content="Daksh P. Jain - A Programmer & Photographer" />
+  <meta property="twitter:image" content="https://daksh.eu.org/assets/banner.png" />
+  <style>
+    @font-face {
+      font-family: "Product Sans";
+      font-style: italic;
+      font-weight: 400;
+      font-display: swap;
+      src: local("Product Sans Italic"), local("ProductSans-Italic"),
+        url(https://fonts.gstatic.com/s/productsans/v12/pxidypQkot1TnFhsFMOfGShVEueIaEx8qw.woff2
+)format("woff2");
+      unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+    }
+
+    @font-face {
+      font-family: "Product Sans";
+      font-style: italic;
+      font-weight: 400;
+      font-display: swap;
+      src: local("Product Sans Italic"), local("ProductSans-Italic"),
+        url(https://fonts.gstatic.com/s/productsans/v12/pxidypQkot1TnFhsFMOfGShVEuePaEx8qw.woff2
+)format("woff2");
+      unicode-range: U+0370-03FF;
+    }
+
+    @font-face {
+      font-family: "Product Sans";
+      font-style: italic;
+      font-weight: 400;
+      font-display: swap;
+      src: local("Product Sans Italic"), local("ProductSans-Italic"),
+        url(https://fonts.gstatic.com/s/productsans/v12/pxidypQkot1TnFhsFMOfGShVEueCaEx8qw.woff2
+)format("woff2");
+      unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB,
+        U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+    }
+
+    @font-face {
+      font-family: "Product Sans";
+      font-style: italic;
+      font-weight: 400;
+      font-display: swap;
+      src: local("Product Sans Italic"), local("ProductSans-Italic"),
+        url(https://fonts.gstatic.com/s/productsans/v12/pxidypQkot1TnFhsFMOfGShVEueMaEw.woff2
+)format("woff2");
+      unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
+        U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193,
+        U+2212, U+2215, U+FEFF, U+FFFD;
+    }
+
+    @font-face {
+      font-family: "Product Sans";
+      font-style: normal;
+      font-weight: 400;
+      font-display: swap;
+      src: local("Product Sans"), local("ProductSans-Regular"),
+        url(https://fonts.gstatic.com/s/productsans/v12/pxiDypQkot1TnFhsFMOfGShVE9eOcEg.woff2
+)format("woff2");
+      unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+    }
+
+    @font-face {
+      font-family: "Product Sans";
+      font-style: normal;
+      font-weight: 400;
+      font-display: swap;
+      src: local("Product Sans"), local("ProductSans-Regular"),
+        url(https://fonts.gstatic.com/s/productsans/v12/pxiDypQkot1TnFhsFMOfGShVFNeOcEg.woff2
+)format("woff2");
+      unicode-range: U+0370-03FF;
+    }
+
+    @font-face {
+      font-family: "Product Sans";
+      font-style: normal;
+      font-weight: 400;
+      font-display: swap;
+      src: local("Product Sans"), local("ProductSans-Regular"),
+        url(https://fonts.gstatic.com/s/productsans/v12/pxiDypQkot1TnFhsFMOfGShVGdeOcEg.woff2
+)format("woff2");
+      unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB,
+        U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+    }
+
+    @font-face {
+      font-family: "Product Sans";
+      font-style: normal;
+      font-weight: 400;
+      font-display: swap;
+      src: local("Product Sans"), local("ProductSans-Regular"),
+        url(https://fonts.gstatic.com/s/productsans/v12/pxiDypQkot1TnFhsFMOfGShVF9eO.woff2
+)format("woff2");
+      unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
+        U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193,
+        U+2212, U+2215, U+FEFF, U+FFFD;
+    }
+  </style>
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16x16.png" />
+  <link rel="manifest" href="assets/site.webmanifest" />
+  <link rel="mask-icon" href="assets/safari-pinned-tab.svg" color="#5bbad5" />
+  <link rel="shortcut icon" href="assets/favicon.ico" />
+  <meta name="msapplication-TileColor" content="#da532c" />
+  <meta name="msapplication-config" content="assets/browserconfig.xml" />
+  <meta name="theme-color" content="#ffffff" />
+
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body class="is-loading">
+  <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" viewbox="0 0 40 40"
+    display="none" width="0" height="0">
+    <symbol id="icon-90a" viewbox="0 0 40 40">
+      <path
+        d="M37.3,15.3v15.3c0,0.8-0.3,1.6-0.9,2.2c-0.6,0.6-1.4,0.9-2.2,0.9H5.8c-0.8,0-1.6-0.3-2.2-0.9s-0.9-1.4-0.9-2.2V15.3 c0.5,0.6,1.2,1.1,2,1.7c4.7,3.1,7.9,5.4,9.6,6.7c0.7,0.5,1.4,0.9,1.8,1.2c0.4,0.3,1,0.6,1.9,0.9c0.7,0.3,1.5,0.5,2.1,0.5l0,0 c0.6,0,1.4-0.2,2.1-0.5c0.7-0.3,1.4-0.6,1.9-0.9c0.4-0.3,1-0.7,1.8-1.2c2.2-1.6,5.4-3.8,9.6-6.7C36.1,16.5,36.7,15.9,37.3,15.3 L37.3,15.3z M37.3,9.6c0,1-0.3,2-0.9,2.9c-0.6,0.9-1.5,1.8-2.4,2.4c-4.9,3.3-7.9,5.4-9,6.2c-0.1,0.1-0.4,0.3-0.8,0.6 c-0.4,0.3-0.7,0.5-1,0.7c-0.3,0.2-0.6,0.4-1,0.6c-0.4,0.2-0.7,0.4-1.1,0.5c-0.4,0.1-0.6,0.2-0.9,0.2l0,0c-0.3,0-0.6-0.1-0.9-0.2 c-0.3-0.1-0.7-0.3-1.1-0.5c-0.4-0.2-0.7-0.4-1-0.6c-0.3-0.2-0.6-0.4-1-0.7c-0.4-0.3-0.7-0.5-0.8-0.6c-1.1-0.8-2.8-2-5.1-3.5 c-2.3-1.6-3.3-2.4-3.7-2.7c-0.8-0.5-1.6-1.2-2.3-2.2s-1-1.9-1-2.6c0-1,0.3-1.9,0.8-2.5c0.5-0.6,1.2-1,2.3-1h28.4 c0.8,0,1.6,0.3,2.2,0.9C37.1,8.1,37.3,8.8,37.3,9.6L37.3,9.6z">
+      </path>
+    </symbol>
+    <symbol id="icon-93f" viewbox="0 0 40 40">
+      <path
+        d="M28.8,33.3c0,0-1.1-1.4-2.1-2.6c4.1-1.2,5.7-3.8,5.7-3.8c-1.3,0.9-2.5,1.5-3.6,1.9c-1.6,0.7-3.1,1.1-4.6,1.4 c-3,0.6-5.8,0.4-8.2,0c-1.8-0.3-3.3-0.9-4.6-1.4c-0.7-0.3-1.5-0.6-2.3-1.1c-0.1-0.1-0.2-0.1-0.3-0.2c-0.1,0-0.1-0.1-0.1-0.1 c-0.6-0.3-0.9-0.5-0.9-0.5s1.5,2.5,5.5,3.7c-0.9,1.2-2.1,2.6-2.1,2.6c-7-0.2-9.6-4.8-9.6-4.8c0-10.1,4.5-18.4,4.5-18.4 c4.5-3.4,8.9-3.3,8.9-3.3l0.3,0.4c-5.7,1.6-8.3,4.1-8.3,4.1s0.7-0.4,1.9-0.9c3.4-1.5,6.1-1.9,7.2-2c0.2,0,0.3-0.1,0.5-0.1 C18.6,8.1,20.7,8,23,8.3c3,0.3,6.2,1.2,9.5,3c0,0-2.5-2.4-7.9-4l0.4-0.5c0,0,4.3-0.1,8.9,3.3c0,0,4.5,8.2,4.5,18.4 C38.5,28.5,35.8,33.1,28.8,33.3z M14.2,18.6c-1.8,0-3.2,1.6-3.2,3.5s1.5,3.5,3.2,3.5c1.8,0,3.2-1.6,3.2-3.5 C17.4,20.1,16,18.6,14.2,18.6z M25.7,18.6c-1.8,0-3.2,1.6-3.2,3.5s1.5,3.5,3.2,3.5c1.8,0,3.2-1.6,3.2-3.5S27.5,18.6,25.7,18.6z">
+      </path>
+    </symbol>
+    <symbol id="icon-907" viewbox="0 0 40 40">
+      <path
+        d="M36,20.3c0,3.5-1,6.6-3.1,9.4c-2,2.8-4.7,4.7-7.9,5.8c-0.4,0.1-0.6,0-0.8-0.1c-0.2-0.2-0.3-0.4-0.3-0.6v-4.4 c0-1.3-0.4-2.3-1.1-3c0.8-0.1,1.5-0.2,2.1-0.4c0.6-0.2,1.3-0.4,2-0.8c0.7-0.4,1.2-0.8,1.7-1.4c0.5-0.5,0.8-1.3,1.1-2.2 s0.4-2,0.4-3.1c0-1.7-0.5-3.1-1.6-4.3c0.5-1.3,0.5-2.7-0.2-4.2c-0.4-0.1-1,0-1.7,0.2c-0.7,0.3-1.4,0.6-1.9,0.9L24,12.5 c-1.3-0.4-2.6-0.5-4-0.5s-2.7,0.2-4,0.5c-0.2-0.2-0.5-0.3-0.9-0.6c-0.4-0.2-0.9-0.5-1.7-0.8c-0.8-0.3-1.4-0.4-1.8-0.3 c-0.6,1.6-0.7,3-0.1,4.2c-1.1,1.2-1.6,2.6-1.6,4.3c0,1.2,0.1,2.2,0.4,3.1s0.6,1.6,1.1,2.2s1,1,1.7,1.4c0.7,0.4,1.3,0.6,2,0.8 c0.6,0.2,1.3,0.3,2.1,0.4c-0.6,0.5-0.9,1.2-1,2.1c-0.3,0.1-0.6,0.2-0.9,0.3c-0.3,0.1-0.7,0.1-1.2,0.1c-0.5,0-0.9-0.1-1.4-0.4 c-0.5-0.3-0.8-0.7-1.2-1.3c-0.3-0.4-0.6-0.8-1-1.1c-0.4-0.3-0.8-0.4-1-0.5L9,26.5c-0.3,0-0.5,0-0.6,0.1c-0.1,0.1-0.1,0.1-0.1,0.2 c0,0.1,0.1,0.2,0.2,0.3c0.1,0.1,0.2,0.2,0.3,0.2l0.1,0.1c0.3,0.1,0.6,0.4,0.9,0.8s0.5,0.7,0.7,1.1l0.2,0.5c0.2,0.5,0.5,1,0.9,1.3 c0.4,0.3,0.9,0.5,1.4,0.6c0.5,0.1,1,0.1,1.4,0.1c0.5,0,0.9,0,1.2-0.1l0.5-0.1c0,0.5,0,1.1,0,1.9c0,0.7,0,1.1,0,1.1 c0,0.2-0.1,0.5-0.3,0.6c-0.2,0.2-0.5,0.2-0.8,0.1c-3.2-1.1-5.8-3-7.9-5.8S4,23.8,4,20.3c0-2.9,0.7-5.6,2.1-8S9.5,7.8,12,6.4 s5.1-2.1,8-2.1s5.6,0.7,8,2.1s4.4,3.4,5.8,5.8S36,17.4,36,20.3L36,20.3z">
+      </path>
+    </symbol>
+    <symbol id="icon-923" viewbox="0 0 40 40">
+      <path
+        d="M32.3,14.4c0,1.2-0.4,2.2-1.3,3.1s-1.9,1.3-3.1,1.3s-2.2-0.4-3.1-1.3c-0.9-0.9-1.3-1.9-1.3-3.1s0.4-2.2,1.3-3.1 c0.9-0.9,1.9-1.3,3.1-1.3s2.2,0.4,3.1,1.3S32.3,13.2,32.3,14.4z M18.5,27.6c0-1.2-0.4-2.3-1.3-3.2c-0.9-0.9-1.9-1.3-3.2-1.3 c-0.3,0-0.6,0-1,0.1l1.9,0.8c0.9,0.4,1.6,1,2,1.9c0.4,0.9,0.4,1.8,0,2.7c-0.4,0.9-1,1.6-1.9,1.9c-0.9,0.4-1.8,0.4-2.7,0 c-0.3-0.1-0.6-0.2-1.1-0.4c-0.5-0.2-0.9-0.3-1.1-0.4c0.4,0.7,0.9,1.3,1.6,1.7c0.7,0.4,1.5,0.7,2.3,0.7c1.2,0,2.3-0.4,3.2-1.3 C18.1,29.9,18.5,28.9,18.5,27.6L18.5,27.6z M33.3,14.4c0-1.5-0.5-2.8-1.6-3.8C30.7,9.5,29.4,9,27.9,9c-1.5,0-2.8,0.5-3.9,1.6 c-1.1,1.1-1.6,2.3-1.6,3.8c0,1.5,0.5,2.8,1.6,3.9c1.1,1.1,2.4,1.6,3.9,1.6c1.5,0,2.8-0.5,3.8-1.6C32.8,17.2,33.3,15.9,33.3,14.4z M36,14.4c0,2.2-0.8,4.2-2.4,5.7c-1.6,1.6-3.5,2.4-5.7,2.4l-7.8,5.7c-0.1,1.5-0.8,2.8-1.9,3.9s-2.5,1.6-4.1,1.6 c-1.4,0-2.7-0.5-3.8-1.4s-1.8-2-2.1-3.4L4,27.3v-7.7l6.9,2.8c0.9-0.6,2-0.9,3.1-0.9c0.2,0,0.4,0,0.6,0l5.1-7.3 c0-2.2,0.8-4.1,2.4-5.7s3.5-2.4,5.7-2.4c2.2,0,4.2,0.8,5.7,2.4C35.2,10.3,36,12.2,36,14.4z">
+      </path>
+    </symbol>
+    <symbol id="icon-944" viewbox="0 0 40 40">
+      <path
+        d="M34,9.6l-4.9,22.9c-0.3,1.6-1.3,2-2.7,1.2L19,28.3l-3.6,3.5c-0.3,0.4-0.7,0.8-1.5,0.8l0.4-7.6l0,0l-0.1,0 l13.9-12.4c0.7-0.6-0.1-0.8-0.9-0.3L10.2,22.9l-7.4-2.3c-1.7-0.4-1.7-1.6,0.3-2.3l28.8-11C33.2,6.7,34.5,7.6,34,9.6z">
+      </path>
+    </symbol>
+  </svg>
+  <div id="wrapper">
+    <div id="main">
+      <div class="inner">
+        <header id="header">
+          <ul id="buttons01" class="buttons">
+            <li><a href="#home" class="button n01">Home</a></li>
+            <li><a href="#gallery" class="button n02">Gallery</a></li>
+            <li><a href="#about" class="button n03">About</a></li>
+            <li><a href="#contact" class="button n04">Contact</a></li>
+          </ul>
+        </header>
+        <section id="home-section">
+          <div id="image01" class="image">
+            <img src="assets/logo.webp" alt="Logo." />
+          </div>
+          <h2 id="text01">Daksh P. Jain</h2>
+          <p id="text04">Programmer & Photographer</p>
+        </section>
+        <section id="gallery-section">
+          <h1 id="text05">Gallery</h1>
+          <p id="text02">
+            Copyright © 2020 Daksh P. Jain. All Rights Reserved.<br />
+            Click to view images in full screen gallery view.
+          </p>
+          <div id="gallery01" class="gallery">
+            <div class="inner">
+              <ul>
+                <li>
+                  <a href="assets/gallery01/01.jpg" class="thumbnail deferred"><img
+                      src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjAiIHk9IjAiIHZpZXdCb3g9IjAgMCA2NDAgNDgwIiB3aWR0aD0iNjQwIiBoZWlnaHQ9IjQ4MCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI%2BPHJlY3QgZmlsbD0iIzNmNGQ1MyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIvPjwvc3ZnPg%3D%3D"
+                      data-src="assets/gallery01/01.jpg" alt="Untitled" /></a>
+                </li>
+                <li>
+                  <a href="assets/gallery01/02.jpg" class="thumbnail deferred"><img
+                      src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjAiIHk9IjAiIHZpZXdCb3g9IjAgMCA2NDAgNDgwIiB3aWR0aD0iNjQwIiBoZWlnaHQ9IjQ4MCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI%2BPHJlY3QgZmlsbD0iIzI2M2I1OCIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIvPjwvc3ZnPg%3D%3D"
+                      data-src="assets/gallery01/02.jpg" alt="Untitled" /></a>
+                </li>
+                <li>
+                  <a href="assets/gallery01/03.jpg" class="thumbnail deferred"><img
+                      src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjAiIHk9IjAiIHZpZXdCb3g9IjAgMCA2NDAgNDgwIiB3aWR0aD0iNjQwIiBoZWlnaHQ9IjQ4MCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI%2BPHJlY3QgZmlsbD0iIzQxNDM0MyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIvPjwvc3ZnPg%3D%3D"
+                      data-src="assets/gallery01/03.jpg" alt="Untitled" /></a>
+                </li>
+                <li>
+                  <a href="assets/gallery01/04.jpg" class="thumbnail deferred"><img
+                      src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjAiIHk9IjAiIHZpZXdCb3g9IjAgMCA2NDAgNDgwIiB3aWR0aD0iNjQwIiBoZWlnaHQ9IjQ4MCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI%2BPHJlY3QgZmlsbD0iIzQxNDM0MyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIvPjwvc3ZnPg%3D%3D"
+                      data-src="assets/gallery01/04.jpg" alt="Untitled" /></a>
+                </li>
+                <li>
+                  <a href="assets/gallery01/05.jpg" class="thumbnail deferred"><img
+                      src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjAiIHk9IjAiIHZpZXdCb3g9IjAgMCA2NDAgNDgwIiB3aWR0aD0iNjQwIiBoZWlnaHQ9IjQ4MCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI%2BPHJlY3QgZmlsbD0iIzQxNDM0MyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIvPjwvc3ZnPg%3D%3D"
+                      data-src="assets/gallery01/05.jpg" alt="Untitled" /></a>
+                </li>
+                <li>
+                  <a href="assets/gallery01/06.jpg" class="thumbnail deferred"><img
+                      src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjAiIHk9IjAiIHZpZXdCb3g9IjAgMCA2NDAgNDgwIiB3aWR0aD0iNjQwIiBoZWlnaHQ9IjQ4MCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI%2BPHJlY3QgZmlsbD0iIzNmNGQ1MyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIvPjwvc3ZnPg%3D%3D"
+                      data-src="assets/gallery01/06.jpg" alt="Untitled" /></a>
+                </li>
+                <li>
+                  <a href="assets/gallery01/07.jpg" class="thumbnail deferred"><img
+                      src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjAiIHk9IjAiIHZpZXdCb3g9IjAgMCA2NDAgNDgwIiB3aWR0aD0iNjQwIiBoZWlnaHQ9IjQ4MCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI%2BPHJlY3QgZmlsbD0iIzI2M2I1OCIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIvPjwvc3ZnPg%3D%3D"
+                      data-src="assets/gallery01/07.jpg" alt="Untitled" /></a>
+                </li>
+                <li>
+                  <a href="assets/gallery01/08.jpg" class="thumbnail deferred"><img
+                      src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjAiIHk9IjAiIHZpZXdCb3g9IjAgMCA2NDAgNDgwIiB3aWR0aD0iNjQwIiBoZWlnaHQ9IjQ4MCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI%2BPHJlY3QgZmlsbD0iIzQxNDM0MyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIvPjwvc3ZnPg%3D%3D"
+                      data-src="assets/gallery01/08.jpg" alt="Untitled" /></a>
+                </li>
+                <li>
+                  <a href="assets/gallery01/09.jpg" class="thumbnail deferred"><img
+                      src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjAiIHk9IjAiIHZpZXdCb3g9IjAgMCA2NDAgNDgwIiB3aWR0aD0iNjQwIiBoZWlnaHQ9IjQ4MCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI%2BPHJlY3QgZmlsbD0iIzQxNDM0MyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIvPjwvc3ZnPg%3D%3D"
+                      data-src="assets/gallery01/09.jpg" alt="Untitled" /></a>
+                </li>
+                <li>
+                  <a href="assets/gallery01/10.jpg" class="thumbnail deferred"><img
+                      src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjAiIHk9IjAiIHZpZXdCb3g9IjAgMCA2NDAgNDgwIiB3aWR0aD0iNjQwIiBoZWlnaHQ9IjQ4MCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI%2BPHJlY3QgZmlsbD0iIzQxNDM0MyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIvPjwvc3ZnPg%3D%3D"
+                      data-src="assets/gallery01/10.jpg" alt="Untitled" /></a>
+                </li>
+                <li>
+                  <a href="assets/gallery01/11.jpg" class="thumbnail deferred"><img
+                      src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjAiIHk9IjAiIHZpZXdCb3g9IjAgMCA2NDAgNDgwIiB3aWR0aD0iNjQwIiBoZWlnaHQ9IjQ4MCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI%2BPHJlY3QgZmlsbD0iIzNmNGQ1MyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIvPjwvc3ZnPg%3D%3D"
+                      data-src="assets/gallery01/11.jpg" alt="Untitled" /></a>
+                </li>
+                <li>
+                  <a href="assets/gallery01/12.jpg" class="thumbnail deferred"><img
+                      src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjAiIHk9IjAiIHZpZXdCb3g9IjAgMCA2NDAgNDgwIiB3aWR0aD0iNjQwIiBoZWlnaHQ9IjQ4MCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI%2BPHJlY3QgZmlsbD0iIzI2M2I1OCIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIvPjwvc3ZnPg%3D%3D"
+                      data-src="assets/gallery01/12.jpg" alt="Untitled" /></a>
+                </li>
+                <li>
+                  <a href="assets/gallery01/13.jpg" class="thumbnail deferred"><img
+                      src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjAiIHk9IjAiIHZpZXdCb3g9IjAgMCA2NDAgNDgwIiB3aWR0aD0iNjQwIiBoZWlnaHQ9IjQ4MCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI%2BPHJlY3QgZmlsbD0iIzQxNDM0MyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIvPjwvc3ZnPg%3D%3D"
+                      data-src="assets/gallery01/13.jpg" alt="Untitled" /></a>
+                </li>
+                <li>
+                  <a href="assets/gallery01/14.jpg" class="thumbnail deferred"><img
+                      src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjAiIHk9IjAiIHZpZXdCb3g9IjAgMCA2NDAgNDgwIiB3aWR0aD0iNjQwIiBoZWlnaHQ9IjQ4MCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI%2BPHJlY3QgZmlsbD0iIzQxNDM0MyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIvPjwvc3ZnPg%3D%3D"
+                      data-src="assets/gallery01/14.jpg" alt="Untitled" /></a>
+                </li>
+                <li>
+                  <a href="assets/gallery01/15.jpg" class="thumbnail deferred"><img
+                      src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjAiIHk9IjAiIHZpZXdCb3g9IjAgMCA2NDAgNDgwIiB3aWR0aD0iNjQwIiBoZWlnaHQ9IjQ4MCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI%2BPHJlY3QgZmlsbD0iIzQxNDM0MyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIvPjwvc3ZnPg%3D%3D"
+                      data-src="assets/gallery01/15.jpg" alt="Untitled" /></a>
+                </li>
+                <li>
+                  <a href="assets/gallery01/16.jpg" class="thumbnail deferred"><img
+                      src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjAiIHk9IjAiIHZpZXdCb3g9IjAgMCA2NDAgNDgwIiB3aWR0aD0iNjQwIiBoZWlnaHQ9IjQ4MCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI%2BPHJlY3QgZmlsbD0iIzQxNDM0MyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIvPjwvc3ZnPg%3D%3D"
+                      data-src="assets/gallery01/16.jpg" alt="Untitled" /></a>
+                </li>
+                <li>
+                  <a href="assets/gallery01/17.jpg" class="thumbnail deferred"><img
+                      src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjAiIHk9IjAiIHZpZXdCb3g9IjAgMCA2NDAgNDgwIiB3aWR0aD0iNjQwIiBoZWlnaHQ9IjQ4MCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI%2BPHJlY3QgZmlsbD0iIzQxNDM0MyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIvPjwvc3ZnPg%3D%3D"
+                      data-src="assets/gallery01/17.jpg" alt="Untitled" /></a>
+                </li>
+                <li>
+                  <a href="assets/gallery01/18.jpg" class="thumbnail deferred"><img
+                      src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjAiIHk9IjAiIHZpZXdCb3g9IjAgMCA2NDAgNDgwIiB3aWR0aD0iNjQwIiBoZWlnaHQ9IjQ4MCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI%2BPHJlY3QgZmlsbD0iIzQxNDM0MyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIvPjwvc3ZnPg%3D%3D"
+                      data-src="assets/gallery01/18.jpg" alt="Untitled" /></a>
+                </li>
+              </ul>
             </div>
-            <h2 id="text01">Daksh P. Jain</h2>
-            <p id="text04">Programmer & Photographer</p>
-          </section>
-          <section id="gallery-section">
-            <h1 id="text05">Gallery</h1>
-            <p id="text02">
-              Copyright © 2020 Daksh P. Jain. All Rights Reserved.<br />
-              Click to view images in full screen gallery view.
-            </p>
-            <div id="gallery01" class="gallery">
-              <div class="inner">
-                <ul>
-                  <li>
-                    <a href="assets/gallery01/01.jpg" class="thumbnail deferred"
-                      ><img
-                        src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjAiIHk9IjAiIHZpZXdCb3g9IjAgMCA2NDAgNDgwIiB3aWR0aD0iNjQwIiBoZWlnaHQ9IjQ4MCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI%2BPHJlY3QgZmlsbD0iIzNmNGQ1MyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIvPjwvc3ZnPg%3D%3D"
-                        data-src="assets/gallery01/01.jpg"
-                        alt="Untitled"
-                    /></a>
-                  </li>
-                  <li>
-                    <a href="assets/gallery01/02.jpg" class="thumbnail deferred"
-                      ><img
-                        src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjAiIHk9IjAiIHZpZXdCb3g9IjAgMCA2NDAgNDgwIiB3aWR0aD0iNjQwIiBoZWlnaHQ9IjQ4MCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI%2BPHJlY3QgZmlsbD0iIzI2M2I1OCIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIvPjwvc3ZnPg%3D%3D"
-                        data-src="assets/gallery01/02.jpg"
-                        alt="Untitled"
-                    /></a>
-                  </li>
-                  <li>
-                    <a href="assets/gallery01/03.jpg" class="thumbnail deferred"
-                      ><img
-                        src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjAiIHk9IjAiIHZpZXdCb3g9IjAgMCA2NDAgNDgwIiB3aWR0aD0iNjQwIiBoZWlnaHQ9IjQ4MCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI%2BPHJlY3QgZmlsbD0iIzQxNDM0MyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIvPjwvc3ZnPg%3D%3D"
-                        data-src="assets/gallery01/03.jpg"
-                        alt="Untitled"
-                    /></a>
-                  </li>
-                  <li>
-                    <a href="assets/gallery01/04.jpg" class="thumbnail deferred"
-                      ><img
-                        src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjAiIHk9IjAiIHZpZXdCb3g9IjAgMCA2NDAgNDgwIiB3aWR0aD0iNjQwIiBoZWlnaHQ9IjQ4MCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI%2BPHJlY3QgZmlsbD0iIzQxNDM0MyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIvPjwvc3ZnPg%3D%3D"
-                        data-src="assets/gallery01/04.jpg"
-                        alt="Untitled"
-                    /></a>
-                  </li>
-                  <li>
-                    <a href="assets/gallery01/05.jpg" class="thumbnail deferred"
-                      ><img
-                        src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjAiIHk9IjAiIHZpZXdCb3g9IjAgMCA2NDAgNDgwIiB3aWR0aD0iNjQwIiBoZWlnaHQ9IjQ4MCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI%2BPHJlY3QgZmlsbD0iIzQxNDM0MyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIvPjwvc3ZnPg%3D%3D"
-                        data-src="assets/gallery01/05.jpg"
-                        alt="Untitled"
-                    /></a>
-                  </li>
-                  <li>
-                    <a href="assets/gallery01/06.jpg" class="thumbnail deferred"
-                      ><img
-                        src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjAiIHk9IjAiIHZpZXdCb3g9IjAgMCA2NDAgNDgwIiB3aWR0aD0iNjQwIiBoZWlnaHQ9IjQ4MCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI%2BPHJlY3QgZmlsbD0iIzNmNGQ1MyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIvPjwvc3ZnPg%3D%3D"
-                        data-src="assets/gallery01/06.jpg"
-                        alt="Untitled"
-                    /></a>
-                  </li>
-                  <li>
-                    <a href="assets/gallery01/07.jpg" class="thumbnail deferred"
-                      ><img
-                        src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjAiIHk9IjAiIHZpZXdCb3g9IjAgMCA2NDAgNDgwIiB3aWR0aD0iNjQwIiBoZWlnaHQ9IjQ4MCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI%2BPHJlY3QgZmlsbD0iIzI2M2I1OCIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIvPjwvc3ZnPg%3D%3D"
-                        data-src="assets/gallery01/07.jpg"
-                        alt="Untitled"
-                    /></a>
-                  </li>
-                  <li>
-                    <a href="assets/gallery01/08.jpg" class="thumbnail deferred"
-                      ><img
-                        src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjAiIHk9IjAiIHZpZXdCb3g9IjAgMCA2NDAgNDgwIiB3aWR0aD0iNjQwIiBoZWlnaHQ9IjQ4MCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI%2BPHJlY3QgZmlsbD0iIzQxNDM0MyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIvPjwvc3ZnPg%3D%3D"
-                        data-src="assets/gallery01/08.jpg"
-                        alt="Untitled"
-                    /></a>
-                  </li>
-                  <li>
-                    <a href="assets/gallery01/09.jpg" class="thumbnail deferred"
-                      ><img
-                        src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjAiIHk9IjAiIHZpZXdCb3g9IjAgMCA2NDAgNDgwIiB3aWR0aD0iNjQwIiBoZWlnaHQ9IjQ4MCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI%2BPHJlY3QgZmlsbD0iIzQxNDM0MyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIvPjwvc3ZnPg%3D%3D"
-                        data-src="assets/gallery01/09.jpg"
-                        alt="Untitled"
-                    /></a>
-                  </li>
-                  <li>
-                    <a href="assets/gallery01/10.jpg" class="thumbnail deferred"
-                      ><img
-                        src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjAiIHk9IjAiIHZpZXdCb3g9IjAgMCA2NDAgNDgwIiB3aWR0aD0iNjQwIiBoZWlnaHQ9IjQ4MCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI%2BPHJlY3QgZmlsbD0iIzQxNDM0MyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIvPjwvc3ZnPg%3D%3D"
-                        data-src="assets/gallery01/10.jpg"
-                        alt="Untitled"
-                    /></a>
-                  </li>
-                  <li>
-                    <a href="assets/gallery01/11.jpg" class="thumbnail deferred"
-                      ><img
-                        src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjAiIHk9IjAiIHZpZXdCb3g9IjAgMCA2NDAgNDgwIiB3aWR0aD0iNjQwIiBoZWlnaHQ9IjQ4MCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI%2BPHJlY3QgZmlsbD0iIzNmNGQ1MyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIvPjwvc3ZnPg%3D%3D"
-                        data-src="assets/gallery01/11.jpg"
-                        alt="Untitled"
-                    /></a>
-                  </li>
-                  <li>
-                    <a href="assets/gallery01/12.jpg" class="thumbnail deferred"
-                      ><img
-                        src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjAiIHk9IjAiIHZpZXdCb3g9IjAgMCA2NDAgNDgwIiB3aWR0aD0iNjQwIiBoZWlnaHQ9IjQ4MCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI%2BPHJlY3QgZmlsbD0iIzI2M2I1OCIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIvPjwvc3ZnPg%3D%3D"
-                        data-src="assets/gallery01/12.jpg"
-                        alt="Untitled"
-                    /></a>
-                  </li>
-                  <li>
-                    <a href="assets/gallery01/13.jpg" class="thumbnail deferred"
-                      ><img
-                        src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjAiIHk9IjAiIHZpZXdCb3g9IjAgMCA2NDAgNDgwIiB3aWR0aD0iNjQwIiBoZWlnaHQ9IjQ4MCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI%2BPHJlY3QgZmlsbD0iIzQxNDM0MyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIvPjwvc3ZnPg%3D%3D"
-                        data-src="assets/gallery01/13.jpg"
-                        alt="Untitled"
-                    /></a>
-                  </li>
-                  <li>
-                    <a href="assets/gallery01/14.jpg" class="thumbnail deferred"
-                      ><img
-                        src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjAiIHk9IjAiIHZpZXdCb3g9IjAgMCA2NDAgNDgwIiB3aWR0aD0iNjQwIiBoZWlnaHQ9IjQ4MCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI%2BPHJlY3QgZmlsbD0iIzQxNDM0MyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIvPjwvc3ZnPg%3D%3D"
-                        data-src="assets/gallery01/14.jpg"
-                        alt="Untitled"
-                    /></a>
-                  </li>
-                  <li>
-                    <a href="assets/gallery01/15.jpg" class="thumbnail deferred"
-                      ><img
-                        src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjAiIHk9IjAiIHZpZXdCb3g9IjAgMCA2NDAgNDgwIiB3aWR0aD0iNjQwIiBoZWlnaHQ9IjQ4MCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI%2BPHJlY3QgZmlsbD0iIzQxNDM0MyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIvPjwvc3ZnPg%3D%3D"
-                        data-src="assets/gallery01/15.jpg"
-                        alt="Untitled"
-                    /></a>
-                  </li>
-                  <li>
-                    <a href="assets/gallery01/16.jpg" class="thumbnail deferred"
-                      ><img
-                        src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjAiIHk9IjAiIHZpZXdCb3g9IjAgMCA2NDAgNDgwIiB3aWR0aD0iNjQwIiBoZWlnaHQ9IjQ4MCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI%2BPHJlY3QgZmlsbD0iIzQxNDM0MyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIvPjwvc3ZnPg%3D%3D"
-                        data-src="assets/gallery01/16.jpg"
-                        alt="Untitled"
-                    /></a>
-                  </li>
-                  <li>
-                    <a href="assets/gallery01/17.jpg" class="thumbnail deferred"
-                      ><img
-                        src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjAiIHk9IjAiIHZpZXdCb3g9IjAgMCA2NDAgNDgwIiB3aWR0aD0iNjQwIiBoZWlnaHQ9IjQ4MCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI%2BPHJlY3QgZmlsbD0iIzQxNDM0MyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIvPjwvc3ZnPg%3D%3D"
-                        data-src="assets/gallery01/17.jpg"
-                        alt="Untitled"
-                    /></a>
-                  </li>
-                  <li>
-                    <a href="assets/gallery01/18.jpg" class="thumbnail deferred"
-                      ><img
-                        src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjAiIHk9IjAiIHZpZXdCb3g9IjAgMCA2NDAgNDgwIiB3aWR0aD0iNjQwIiBoZWlnaHQ9IjQ4MCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI%2BPHJlY3QgZmlsbD0iIzQxNDM0MyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIvPjwvc3ZnPg%3D%3D"
-                        data-src="assets/gallery01/18.jpg"
-                        alt="Untitled"
-                    /></a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </section>
-          <section id="about-section">
-            <h2 id="text07">About</h2>
-            <p id="text08">
-              <span
-                >I'm a beginner programmer and a passionate photographer from
-                New Delhi, India</span
-              ><br />
-              <span
-                >I know HTML/CSS, a bit of JS and currently learning
-                Python.</span
-              ><br />
-              <span
-                >I love Material Design, Fluent Design, Android, chess and
-                animals.</span
-              ><br />
-              <br />
-              <span
-                >P.S. This website is open sourced and can be found
-                <a
-                  href="https://github.com/Daksh777/website"
-                  target="_blank"
-                  >here.</a
-                ></span
-              >
-            </p>
-          </section>
-          <section id="contact-section">
-            <h2 id="text03">Contact</h2>
-            <p id="text06">
-              <span
-                >You can contact me by clicking one of the following buttons to
-                get redirected</span
-              ><br />
-              <span>to my social medias.</span><br />
+          </div>
+        </section>
+        <section id="about-section">
+          <h2 id="text07">About</h2>
+          <p id="text08">
+            <span>I'm a beginner programmer and a passionate photographer from
+              New Delhi, India</span><br />
+            <span>I know HTML/CSS, a bit of JS and currently learning
+              Python.</span><br />
+            <span>I love Material Design, Fluent Design, Android, chess and
+              animals.</span><br />
+            <br />
+            <span>P.S. This website is open sourced and can be found
+              <a href="https://github.com/Daksh777/website" target="_blank">here.</a></span>
+          </p>
+        </section>
+        <section id="contact-section">
+          <h2 id="text03">Contact</h2>
+          <p id="text06">
+            <span>You can contact me by clicking one of the following buttons to
+              get redirected</span><br />
+            <span>to my social medias.</span><br />
 
-              <span
-                >Need to use my images for commericial or non-private use?</span
-              ><br />
-              <span
-                >Contact me via email at
-                <a href="mailto:contact@daksh.eu.org" target="_blank"
-                  >contact@daksh.eu.org</a
-                ></span
-              >
-            </p>
-          </section>
-          <footer id="footer">
-            <hr id="divider01" />
-            <ul id="icons01" class="icons">
-              <li>
-                <a class="n01" href="https://t.me/daksh777" target="_blank"
-                  ><svg><use xlink:href="#icon-944"></use></svg
-                  ><span class="label">Telegram</span></a
-                >
-              </li>
-              <li>
-                <a
-                  class="n02"
-                  href="https://github.com/daksh777"
-                  target="_blank"
-                  ><svg><use xlink:href="#icon-907"></use></svg
-                  ><span class="label">GitHub</span></a
-                >
-              </li>
+            <span>Need to use my images for commericial or non-private use?</span><br />
+            <span>Contact me via email at
+              <a href="mailto:contact@daksh.eu.org" target="_blank">contact@daksh.eu.org</a></span>
+          </p>
+        </section>
+        <footer id="footer">
+          <hr id="divider01" />
+          <ul id="icons01" class="icons">
+            <li>
+              <a class="n01" href="https://t.me/daksh777" target="_blank"><svg>
+                  <use xlink:href="#icon-944"></use>
+                </svg><span class="label">Telegram</span></a>
+            </li>
+            <li>
+              <a class="n02" href="https://github.com/daksh777" target="_blank"><svg>
+                  <use xlink:href="#icon-907"></use>
+                </svg><span class="label">GitHub</span></a>
+            </li>
 
-              <li>
-                <a
-                  class="n04"
-                  href="https://steamcommunity.com/id/daksh777"
-                  target="_blank"
-                  ><svg><use xlink:href="#icon-923"></use></svg
-                  ><span class="label">Steam</span></a
-                >
-              </li>
+            <li>
+              <a class="n04" href="https://steamcommunity.com/id/daksh777" target="_blank"><svg>
+                  <use xlink:href="#icon-923"></use>
+                </svg><span class="label">Steam</span></a>
+            </li>
 
-              <li>
-                <a class="n05">
-                  <svg>
-                    <use xlink:href="#icon-93f"></use></svg
-                  ><span class="label">Daksh777#7688</span>
-                </a>
-              </li>
-              <li>
-                <a class="n06" href="mailto:contact@daksh.eu.org"
-                  ><svg><use xlink:href="#icon-90a"></use></svg
-                  ><span class="label">Email</span></a
-                >
-              </li>
-            </ul>
-          </footer>
-        </div>
+            <li>
+              <a class="n05">
+                <svg>
+                  <use xlink:href="#icon-93f"></use>
+                </svg><span class="label">Daksh777#7688</span>
+              </a>
+            </li>
+            <li>
+              <a class="n06" href="mailto:contact@daksh.eu.org"><svg>
+                  <use xlink:href="#icon-90a"></use>
+                </svg><span class="label">Email</span></a>
+            </li>
+          </ul>
+        </footer>
       </div>
     </div>
-    <script src="script.js"></script>
-    <script src="animation.js"></script>
-  </body>
+  </div>
+  <script src="script.js"></script>
+  <script src="animation.js"></script>
+</body>
+
 </html>

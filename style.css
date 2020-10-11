@@ -206,6 +206,7 @@ body:before {
   -webkit-pointer-events: none;
   -ms-pointer-events: none;
   pointer-events: none;
+  transform: scale(1);
   -moz-transform: scale(1);
   -webkit-transform: scale(1);
   -ms-transform: scale(1);
@@ -1369,7 +1370,7 @@ hr:before {
   color: #fff;
   padding: 5px;
   z-index: 1;
-  visible: hidden;
+  visibility: hidden;
   opacity: 0;
   transition: all 0.1s ease-in-out;
 }
@@ -2539,7 +2540,7 @@ hr:before {
   color: #fff;
   padding: 5px;
   z-index: 1;
-  visible: hidden;
+  visibility: hidden;
   opacity: 0;
   transition: all 0.1s ease-in-out;
 }

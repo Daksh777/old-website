@@ -568,14 +568,7 @@ body.is-instant:after {
 .image.full span {
   display: block;
 }
-#image01 a,
-#image01 span {
-  border-radius: 100%;
-}
-#image01 img {
-  width: 8.75rem;
-  border-radius: 100%;
-}
+
 h1 br + br,
 h2 br + br,
 h3 br + br,
@@ -1139,9 +1132,7 @@ hr:before {
   #buttons01 li a {
     font-size: 0.625em;
   }
-  #image01 img {
-    width: 8.75rem;
-  }
+
   #text01 {
     letter-spacing: 0.284375rem;
     width: calc(100% + 0.284375rem);
@@ -1736,13 +1727,11 @@ body.is-instant:after {
 .image.full span {
   display: block;
 }
-#image01 a,
-#image01 span {
-  border-radius: 100%;
-}
+
 #image01 img {
-  width: 8.75rem;
-  border-radius: 100%;
+  width: 4.5rem;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 h1 br + br,
 h2 br + br,
@@ -2309,9 +2298,7 @@ hr:before {
   #buttons01 li a {
     font-size: 0.625em;
   }
-  #image01 img {
-    width: 8.75rem;
-  }
+
   #text01 {
     letter-spacing: 0.284375rem;
     width: calc(100% + 0.284375rem);

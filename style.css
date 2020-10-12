@@ -432,6 +432,8 @@ body.is-instant:after {
   color: #FFFFFF;
   border: solid 1px #FFFFFFFF;
   border-radius: 5rem;
+  border-style: solid;
+  border-width: 2px !important;
 }
 #buttons01 .button:focus{
   background-color: #0088CC;

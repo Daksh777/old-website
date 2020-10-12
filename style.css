@@ -1,83 +1,5 @@
 html,
 body,
-div,
-span,
-applet,
-object,
-iframe,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote,
-pre,
-a,
-abbr,
-acronym,
-address,
-big,
-cite,
-code,
-del,
-dfn,
-em,
-img,
-ins,
-kbd,
-q,
-s,
-samp,
-small,
-strike,
-strong,
-sub,
-sup,
-tt,
-var,
-b,
-u,
-i,
-center,
-dl,
-dt,
-dd,
-ol,
-ul,
-li,
-fieldset,
-form,
-label,
-legend,
-table,
-caption,
-tbody,
-tfoot,
-thead,
-tr,
-th,
-td,
-article,
-aside,
-canvas,
-details,
-embed,
-figure,
-figcaption,
-footer,
-header,
-hgroup,
-menu,
-nav,
-output,
-ruby,
-section,
-summary,
-time,
-mark,
-audio,
 video {
   margin: 0;
   padding: 0;
@@ -86,16 +8,6 @@ video {
   font: inherit;
   vertical-align: baseline;
 }
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-menu,
-nav,
 section {
   display: block;
 }
@@ -110,9 +22,6 @@ blockquote,
 q {
   quotes: none;
 }
-blockquote:before,
-blockquote:after,
-q:before,
 q:after {
   content: "";
   content: none;
@@ -132,9 +41,6 @@ input::-moz-focus-inner {
   border: 0;
   padding: 0;
 }
-input[type="text"],
-input[type="email"],
-select,
 textarea {
   -moz-appearance: none;
   -webkit-appearance: none;
@@ -210,7 +116,7 @@ body:before {
   -moz-transform: scale(1);
   -webkit-transform: scale(1);
   -ms-transform: scale(1);
-  background-image: url("assets/bg.webp");
+  background: #112211 url("assets/bg.webp");
   background-position: center center;
   background-repeat: repeat;
   background-size: cover;
@@ -525,6 +431,11 @@ body.is-instant:after {
 #buttons01 .button {
   color: #FFFFFF;
   border: solid 1px #FFFFFFFF;
+  border-radius: 5rem;
+}
+#buttons01 .button:focus{
+  background-color: #0088CC;
+  border-color: #0088CC;
 }
 #buttons01 .button:hover {
   color: #1cbbd4 !important;

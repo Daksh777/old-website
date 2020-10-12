@@ -539,10 +539,12 @@ hr {
 	-moz-animation: gallery-modal-spinner 1s infinite linear;
 	-webkit-animation: gallery-modal-spinner 1s infinite linear;
 	-ms-animation: gallery-modal-spinner 1s infinite linear;
-	animation: gallery-modal-spinner 1s infinite linear;
+  animation: gallery-modal-spinner 1s infinite linear;
+  transition: opacity .25s ease;
 	-moz-transition: opacity .25s ease;
 	-webkit-transition: opacity .25s ease;
-	-ms-transition: opacity .25s ease;
+  -ms-transition: opacity .25s ease;
+  transition-delay: .5s;
 	-moz-transition-delay: .5s;
 	-webkit-transition-delay: .5s;
 	-ms-transition-delay: .5s;
@@ -577,7 +579,8 @@ hr {
 	height: 40%;
 	min-height: 6rem;
 	background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iNjRweCIgaGVpZ2h0PSI2NHB4IiB2aWV3Qm94PSIwIDAgNjQgNjQiIHpvb21BbmRQYW49ImRpc2FibGUiPjxzdHlsZT5saW5lIHtzdHJva2U6ICNmZmY7c3Ryb2tlLXdpZHRoOiAxLjVweDt9PC9zdHlsZT48bGluZSB4MT0iMjQiIHkxPSI4IiB4Mj0iNDgiIHkyPSIzMiIgLz48bGluZSB4MT0iMjQiIHkxPSI1NiIgeDI9IjQ4IiB5Mj0iMzIiIC8+PC9zdmc+) no-repeat center;
-	opacity: .25;
+  opacity: .25;
+  transition: opacity .25s ease;
 	-moz-transition: opacity .25s ease;
 	-webkit-transition: opacity .25s ease;
 	-ms-transition: opacity .25s ease

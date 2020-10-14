@@ -160,10 +160,10 @@
       <div class="inner">
         <header id="header">
           <ul id="buttons01" class="buttons">
-            <li><a href="#home" class="button n01">Home</a></li>
-            <li><a href="#gallery" class="button n02">Gallery</a></li>
-            <li><a href="#about" class="button n03">About</a></li>
-            <li><a href="#contact" class="button n04">Contact</a></li>
+            <li><a href="#home" name="home" class="button n01">Home</a></li>
+            <li><a href="#gallery" name="gallery" class="button n02">Gallery</a></li>
+            <li><a href="#about" name="about" class="button n03">About</a></li>
+            <li><a href="#contact" name="contact" class="button n04">Contact</a></li>
           </ul>
         </header>
         <section id="home-section">
@@ -347,6 +347,48 @@
     </div>
   </div>
   <script src="animation.js"></script>
+  <script>
+      // get all navigation links 
+      const navigationLinks = document.querySelectorAll('.button')
+
+      // set default link 
+      const defaultLink = "home"
+
+      // get currently highlighted item from localstorage 
+      let currentItem = localStorage.getItem('currentItem') || null 
+
+      // if currentItem is null set it to home  
+      if(!currentItem) {
+          currentItem = defaultLink
+          localStorage.setItem('currentItem', currentItem) 
+      } else {
+         // select particular item from DOM 
+          const item = document.querySelector(`[name=${currentItem}]`)
+          console.log({ item })
+          item.classList.add('hover-style')
+      }
+
+      // implement click handler  
+      function handleClick(e) {
+          e.preventDefault() 
+
+          // get name of clicked element 
+          const { name } = e.target 
+
+          // remove class of all other elements 
+          navigationLinks.forEach(link => link.classList.remove('hover-style'))
+          
+          // insert class hover-style to clicked element 
+          e.target.classList.add('hover-style')
+
+          // set currentItem to clicked item 
+          localStorage.setItem('currentItem', name)
+      }
+
+      // add listener to all navigation links 
+      navigationLinks.forEach(link => link.addEventListener('click', handleClick))
+
+  </script>
 </body>
 
 </html>

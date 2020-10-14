@@ -7,6 +7,12 @@ video {
 	vertical-align: baseline;
 }
 
+
+.hover-style { 
+	background: #0088CC !important;
+	color: white !important;
+	border: none !important;
+}
 section {
 	display: block;
 }

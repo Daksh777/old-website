@@ -795,6 +795,7 @@ window.addEventListener("load", event => {
   discord.addEventListener("click", showDiscordDetails, false);
   function showDiscordDetails() {
     discordLabel.textContent = 'Copied to clipboard'
+    navigator.clipboard.writeText("Daksh777#7688")
     setTimeout(() => discordLabel.textContent = 'Daksh777#7688', 2000)
   }
 });

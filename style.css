@@ -6,6 +6,21 @@ video {
 	font: inherit;
 	vertical-align: baseline;
 }
+body {
+	margin: 0 !important;
+}
+
+.hover-style { 
+	background: #0088CC !important;
+	color: white !important;
+	border-radius: 5rem !important;
+	border: none !important;
+}
+
+.hover-style-inverted {
+	background: none !important; 
+	border: 1px solid white !important;
+}
 
 section {
 	display: block;
@@ -1425,4 +1440,9 @@ hr:before {
 	visibility: visible;
 	opacity: 1 !important;
 	bottom: -30px !important;
+}
+
+
+.button {
+	border: 1px solid white !important;
 }

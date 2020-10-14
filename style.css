@@ -524,8 +524,8 @@ body.is-instant:after {
 }
 
 #buttons01 .button:hover {
-	color: #1cbbd4 !important;
-	border-color: #1cbbd4 !important;
+	color: #1cbbd4;
+	border-color: #1cbbd4;
 }
 
 .image {
@@ -1445,4 +1445,14 @@ hr:before {
 
 .button {
 	border: 1px solid white !important;
+}
+
+ * {
+	outline: none !important;
+}
+
+@media screen and max-width(500px) {
+	.button {
+		border: 1px solid white !important;
+	}
 }

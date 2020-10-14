@@ -160,9 +160,9 @@
       <div class="inner">
         <header id="header">
           <ul id="buttons01" class="buttons">
-            <li name="home"  class="li-button"><a name="home" href="#home" class="button n01">Home</a></li>
+            <li name="home" class="li-button"><a name="home" href="#home" class="button n01">Home</a></li>
             <li name="gallery" class="li-button"><a name="gallery" href="#gallery" class="button n02">Gallery</a></li>
-            <li name="about" class="li-button"><a name="about" href="#about"  class="button n03">About</a></li>
+            <li name="about" class="li-button"><a name="about" href="#about" class="button n03">About</a></li>
             <li name="contact" class="li-button"><a name="contact" href="#contact" class="button n04">Contact</a></li>
           </ul>
         </header>
@@ -333,7 +333,7 @@
               <a class="n05">
                 <svg>
                   <use xlink:href="#icon-93f"></use>
-                </svg><span class="label">Daksh777#7688</span>
+                </svg><span class="label">Click to copy</span>
               </a>
             </li>
             <li>
@@ -347,46 +347,46 @@
     </div>
   </div>
   <script>
-// get all navigation links 
-      const navigationLinks = document.querySelectorAll('.li-button')
+    // get all navigation links 
+    const navigationLinks = document.querySelectorAll('.li-button')
 
-      // set default link 
-      const defaultLink = "home"
-      let item 
-      // get currently highlighted item from localstorage 
-      let currentItem = window.location.href.split('#')[1]
+    // set default link 
+    const defaultLink = "home"
+    let item
+    // get currently highlighted item from localstorage 
+    let currentItem = window.location.href.split('#')[1]
 
-      // if currentItem is null set it to home  
-      if(!currentItem) {
-          currentItem = defaultLink
-      }
+    // if currentItem is null set it to home  
+    if (!currentItem) {
+      currentItem = defaultLink
+    }
 
-     // select particular item from DOM 
-      item = document.querySelector(`[name=${currentItem}]`)
+    // select particular item from DOM 
+    item = document.querySelector(`[name=${currentItem}]`)
 
 
-      item.classList.add('hover-style')
+    item.classList.add('hover-style')
 
-      function handleClick(e) {
-          // console.log('called')
+    function handleClick(e) {
+      // console.log('called')
 
-          // // get name of clicked element 
-          const { name } = e.target 
+      // // get name of clicked element 
+      const { name } = e.target
 
-          // remove class of all other elements 
-          const buttons = document.querySelectorAll('.button')
-          item.classList.remove('hover-style')
-          buttons.forEach(button => button.classList.add('hover-style-inverted'))
+      // remove class of all other elements 
+      const buttons = document.querySelectorAll('.button')
+      item.classList.remove('hover-style')
+      buttons.forEach(button => button.classList.add('hover-style-inverted'))
 
-          // insert class hover-style to clicked element 
-          e.target.classList.add('hover-style')
-          e.target.classList.remove('hover-style-inverted')
+      // insert class hover-style to clicked element 
+      e.target.classList.add('hover-style')
+      e.target.classList.remove('hover-style-inverted')
 
-          // set currentItem to clicked item 
-      }
+      // set currentItem to clicked item 
+    }
 
-      // add listener to all navigation links 
-      navigationLinks.forEach(link => link.addEventListener('click', handleClick))
+    // add listener to all navigation links 
+    navigationLinks.forEach(link => link.addEventListener('click', handleClick))
 
   </script>
   <script src="animation.js"></script>

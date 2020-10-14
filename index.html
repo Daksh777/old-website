@@ -347,29 +347,27 @@
     </div>
   </div>
   <script>
-      // get all navigation links 
+// get all navigation links 
       const navigationLinks = document.querySelectorAll('.li-button')
 
       // set default link 
       const defaultLink = "home"
       let item 
       // get currently highlighted item from localstorage 
-      let currentItem = localStorage.getItem('currentItem') || null 
+      let currentItem = window.location.href.split('#')[1]
 
       // if currentItem is null set it to home  
       if(!currentItem) {
           currentItem = defaultLink
-          localStorage.setItem('currentItem', currentItem) 
-      } else {
-         // select particular item from DOM 
-          item = document.querySelector(`[name=${currentItem}]`)
-          console.log({ item })
-
-          item.classList.add('hover-style')
       }
 
+     // select particular item from DOM 
+      item = document.querySelector(`[name=${currentItem}]`)
+
+
+      item.classList.add('hover-style')
+
       function handleClick(e) {
-          // e.preventDefault() 
           // console.log('called')
 
           // // get name of clicked element 
@@ -385,7 +383,6 @@
           e.target.classList.remove('hover-style-inverted')
 
           // set currentItem to clicked item 
-          localStorage.setItem('currentItem', name)
       }
 
       // add listener to all navigation links 

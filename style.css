@@ -1453,8 +1453,8 @@ hr:before {
 }
 
 .button:hover {
-	background-color: #0088CC;
-	color: white !important;
+	color: #1cbbd4;
+	border-color: #1cbbd4 !important;
 }
 @media screen and (max-width:500px) {
 	.button {

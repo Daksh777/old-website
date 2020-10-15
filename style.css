@@ -1452,7 +1452,11 @@ hr:before {
 	outline: none !important;
 }
 
-@media screen and max-width(500px) {
+.button:hover {
+	background-color: #0088CC;
+	color: white !important;
+}
+@media screen and (max-width:500px) {
 	.button {
 		border: 1px solid white !important;
 	}

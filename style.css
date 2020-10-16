@@ -1121,6 +1121,10 @@ hr:before {
 	fill: #00F0FF !important;
 }
 
+#icons01 .n07:hover svg {
+	fill: #000000 !important;
+}
+
 @media (orientation: portrait) {
 	.gallery-modal .inner img {
 		max-width: 100vw;

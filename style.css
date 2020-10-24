@@ -893,12 +893,10 @@ p .li {
 
 .gallery-modal .nav.next {
 	right: 0;
-	opacity: 0.6;
 }
 
 .gallery-modal .nav.previous {
 	left: 0;
-	opacity: 0.6;
 	transform: scaleX(-1);
 }
 
@@ -914,7 +912,7 @@ p .li {
 	background-position: top 1rem right 1rem;
 	background-repeat: no-repeat;
 	background-size: 3rem;
-	opacity: 1;
+	opacity: 0.6;
 	transition: opacity 0.25s ease;
 }
 

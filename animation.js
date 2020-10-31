@@ -788,14 +788,3 @@
     }),
     new m().init({ id: "gallery01", navigation: !0 });
 })();
-
-window.addEventListener("load", event => {
-  var discord = document.getElementsByClassName("n05")[0];
-  var discordLabel = document.querySelectorAll(".n05 .label")[0];
-  discord.addEventListener("click", showDiscordDetails, false);
-  function showDiscordDetails() {
-    discordLabel.textContent = 'Copied!'
-    navigator.clipboard.writeText("Daksh777#7688")
-    setTimeout(() => discordLabel.textContent = 'Click to copy', 2000)
-  }
-});

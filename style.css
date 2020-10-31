@@ -1067,10 +1067,6 @@ hr:before {
 	display: none;
 }
 
-.n05>.label {
-	display: block !important;
-}
-
 #icons01 {
 	font-size: 1.875em;
 	width: calc(100% + 1.5rem);
@@ -1109,10 +1105,6 @@ hr:before {
 
 #icons01 .n04:hover svg {
 	fill: #9CBBC7 !important;
-}
-
-#icons01 .n05:hover svg {
-	fill: #7B93E8 !important;
 }
 
 #icons01 .n06:hover svg {
@@ -1389,62 +1381,6 @@ hr:before {
 		margin: 0.5625rem;
 	}
 }
-
-.n05 {
-	position: relative;
-	display: flex;
-	font-family: Product Sans, sans-serif;
-	height: 175px;
-	width: 300px;
-}
-
-.n05 svg {
-	position: absolute;
-	z-index: 2;
-}
-
-.n05.discordClick>svg {
-	fill: #7B93E8 !important;
-}
-
-.n05 {
-	top: 0;
-}
-
-.n05:hover svg {
-	fill: #7B93E8 !important;
-	cursor: pointer;
-}
-
-.n05 .label {
-	position: absolute;
-	font-size: 55%;
-	bottom: 25px;
-	border-radius: 5px;
-	left: 50%;
-	cursor: text;
-	transform: translateX(-50%);
-	background: #7B93E8;
-	color: #fff;
-	padding: 5px;
-	z-index: 1;
-	visibility: hidden;
-	opacity: 0;
-	transition: all 0.1s ease-in-out;
-	white-space: nowrap;
-}
-
-.n05.discordClick {
-	fill: #7B93E8 !important;
-}
-
-.n05 svg:hover~.label,
-.discordClick {
-	visibility: visible;
-	opacity: 1 !important;
-	bottom: -30px !important;
-}
-
 
 .button {
 	border: 1px solid white !important;

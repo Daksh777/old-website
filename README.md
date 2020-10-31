@@ -3,12 +3,8 @@
 ## Screenshots
 Home             |  Gallery
 :-------------------------:|:-------------------------:
-![Home](https://i.imgur.com/t7QHVaL.png)  |  ![Gallery](https://i.imgur.com/FjPgCbL.png)
+![Home](https://i.imgur.com/LFaU5KD.png)  |  ![Gallery](https://i.imgur.com/YgZshp0.png)
 
 About             |  Contact
 :-------------------------:|:-------------------------:
-![About](https://i.imgur.com/GPr9IOh.png)  |  ![Contact](https://i.imgur.com/ONxGU44.png)
-
-Gallery view 
-:-------------------------:
-![Gallery view](https://i.imgur.com/X8PEeze.png)
+![About](https://i.imgur.com/knE36hD.png)  |  ![Contact](https://i.imgur.com/ZflN3IR.png)

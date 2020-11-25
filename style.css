@@ -1091,29 +1091,10 @@ hr:before {
 	fill: #FFFFFF;
 }
 
-#icons01 .n01:hover svg {
-	fill: #0088CC !important;
-}
-
-#icons01 .n02:hover svg {
-	fill: #929494 !important;
-}
-
-#icons01 .n03:hover svg {
-	fill: #29BB5B !important;
-}
-
-#icons01 .n04:hover svg {
-	fill: #9CBBC7 !important;
-}
-
-#icons01 .n06:hover svg {
-	fill: #00F0FF !important;
-}
-
-#icons01 .n07:hover svg {
-	fill: #000000 !important;
-}
+#icons01 :hover svg {
+	stroke: white;
+	stroke-width: 1px;
+	fill:#0088CC !important;
 
 @media (orientation: portrait) {
 	.gallery-modal .inner img {
@@ -1381,7 +1362,7 @@ hr:before {
 		margin: 0.5625rem;
 	}
 }
-
+}
 .button {
 	border: 1px solid white !important;
 }

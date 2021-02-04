@@ -156,9 +156,6 @@ html {
 }
 
 @media (max-width: 1280px) {
-	html {
-		font-size: 13pt;
-	}
 	.gallery-modal .nav {
 		opacity: 1;
 	}
@@ -717,8 +714,9 @@ p .li {
 }
 
 .gallery ul li img {
-	width: auto;
-	max-width: 100%;
+	height: 15rem;
+	width: 11rem;
+	object-fit: cover;
 	margin: 0;
 	vertical-align: top;
 }
@@ -974,8 +972,9 @@ p .li {
 }
 
 #gallery01 ul {
-	width: calc(100% + 1rem);
-	margin: -0.5rem 0 -0.5rem -0.5rem;
+	margin: 0;
+	padding-inline-start: 0;
+	padding-inline-end: 0;
 }
 
 #gallery01 ul li {

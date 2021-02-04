@@ -8,11 +8,11 @@ Copyright © 2021 Daksh P. Jain All Rights Reserved
 ## Screenshots
 Home             |  Gallery
 :-------------------------:|:-------------------------:
-![Home](https://i.imgur.com/mHSoMFL.png)  |  ![Gallery](https://i.imgur.com/iEihY29.png)
+![Home](https://i.imgur.com/mHSoMFL.png)  |  ![Gallery](https://i.imgur.com/lv2ENvg.png)
 
 Gallery #2             |  Gallery View
 :-------------------------:|:-------------------------:
-![Gallery #2](https://i.imgur.com/d8eFLUZ.png)   |   ![Gallery View](https://i.imgur.com/0SuLfTJ.png)
+![Gallery #2](https://i.imgur.com/zP7ix1l.png)   |   ![Gallery View](https://i.imgur.com/0SuLfTJ.png)
 
 About             |  Contact
 :-------------------------:|:-------------------------:

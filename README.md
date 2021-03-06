@@ -1,4 +1,4 @@
-# ⚠ This website has been archived
+# ⚠ This repository has been archived
 
 ## Source code for daksh.eu.org
 
